@@ -56,12 +56,50 @@ are required for processing the data.
 
 First we'll check which array was used by looking at the sample sheet included
 with the data, in this case `210729_Gaulton_Samplesheet.csv`. It indicates that
-the array used is [Infinium Omni 2.5-8 v1.5](https://support.illumina.com/array/array_kits/humanomni2_5-8_beadchip_kit/downloads.html). For a different array you'll have
+the array used is [Infinium Omni 2.5-8 v1.5](https://support.illumina.com/array/array_kits/humanomni2_5-8_beadchip_kit/downloads.html). For a different arrayyou'll have
 to find its files on support.illumina.com.
 
-You'll need to download the Manifest file (either BMP or CSV format) and the
-Cluster file.
+We'll need to download the manifest file (either BMP or CSV format) and the
+cluster file.
+
+---
 
 ![sample sheet](screenshots/sample-sheet.png)
 
-## Step 3 
+---
+
+## Step 3: Process data with GenomeStudio
+
+Once all the data and product files are collected, we can process the
+genotyping data. Open GenomeStudio and launch a new genotyping project.
+
+![start genotyping project](screenshots/start-genotyping-project.png)
+
+This will launch the genotyping project wizard. We will need to:
+
+1. Provide a name and location for the project
+1. Select "Use sample sheet to load sample intensities"
+1. Provide the locations of the sample sheet, the data directory, and the manifest file
+1. Select "Import cluster positions from a cluster file" and provide the location of the cluster file. Also select "Calculate Sample and SNP Statistics."
+1. Click "Finish" to complete the setup
+
+GenomeStudio will then analyze the data, which might take a while. We will then
+see the results of the analysis. There is a lot of information, but only a
+couple more steps to export the results.
+
+First, export the sample statistics table, which includes call rates etc.
+
+![samples table](screenshots/samples-table.png)
+
+Then start the Report Wizard to generate the PLINK input report.
+
+![report button](report-button.png)
+
+1. Select "Custom Report" and use the PLINK Input Report plugin. Leave the
+parameters at ther defaults
+1. Use the default settings for formatting the report
+1. Provide a name and ouptut location for the report
+1. Click "Finish" to generate the report
+
+## Step 4: Upload and extract PLINK input data
+
