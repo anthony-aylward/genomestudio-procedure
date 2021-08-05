@@ -73,7 +73,11 @@ cluster file.
 Once all the data and product files are collected, we can process the
 genotyping data. Open GenomeStudio and launch a new genotyping project.
 
+---
+
 ![start genotyping project](screenshots/start-genotyping-project.png)
+
+---
 
 This will launch the genotyping project wizard. We will need to:
 
@@ -89,11 +93,17 @@ couple more steps to export the results.
 
 First, export the sample statistics table, which includes call rates etc.
 
+---
+
 ![samples table](screenshots/samples-table.png)
+
+---
 
 Then start the Report Wizard to generate the PLINK input report.
 
-![report button](report-button.png)
+![report button](screenshots/report-button.png)
+
+---
 
 1. Select "Custom Report" and use the PLINK Input Report plugin. Leave the
 parameters at ther defaults
