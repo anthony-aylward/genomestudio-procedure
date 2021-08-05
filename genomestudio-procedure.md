@@ -101,6 +101,8 @@ First, export the sample statistics table, which includes call rates etc.
 
 Then start the Report Wizard to generate the PLINK input report.
 
+---
+
 ![report button](screenshots/report-button.png)
 
 ---
