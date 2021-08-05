@@ -56,3 +56,5 @@ are required for processing the data.
 
 First we'll check which array was used by looking at the sample sheet included
 with the data, in this case `210729_Gaulton_Samplesheet.csv`
+
+![sample sheet](screenshots/sample-sheet.png)
