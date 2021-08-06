@@ -9,6 +9,7 @@ This procedure uses the following software tools:
 1. [MobaXterm](https://mobaxterm.mobatek.net/) - terminal allowing SSH into gatsby/sherlock/etc., also makes it pretty easy to download/upload files
 1. [7zip](https://www.7-zip.org/) - creates compressed file archives (like tarballs) that can be read by both windows and linux
 1. [GenomeStudio v2.0.5](https://www.illumina.com/techniques/microarrays/array-data-analysis-experimental-design/genomestudio.html)
+    - [PLINK Input Report Plug-in v2.1.4](https://support.illumina.com/downloads/genomestudio-2-0-plug-ins.html)
 
 ### Linux (on server)
 
