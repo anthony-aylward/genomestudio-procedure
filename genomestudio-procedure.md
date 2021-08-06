@@ -115,3 +115,29 @@ parameters at ther defaults
 
 ## Step 4: Upload and extract PLINK input data
 
+GenomeStudio will write the PLINK input data to a directory named
+`PLINK_<DATE>_<TIME>`. It contains `.map` and `.ped` files for input into PLINK.
+To upload the results to a server we'll first compress them using 7zip.
+
+---
+
+![7zip compression image](screenshots/7zip-compression.png)
+
+---
+
+Once the `.7z` archive has been created, we can upload it by navigating to the
+destination directory in MobaXterm. We should also upload the sample statistics
+table.
+
+---
+
+![upload image](screenshots/moba-xterm-upload.png)
+
+---
+
+On the server, use the `7z x` command (short for 7zip extract) to extract the
+PLINK input files. For example:
+
+```
+7z x PLINK_050821_0452.7z
+```
