@@ -17,6 +17,11 @@ This procedure uses the following software tools:
     - Ubuntu: `sudo apt install p7zip-full p7zip-rar`
     - CentOS: `sudo yum install p7zip p7zip-plugins`
 
+### See also
+
+[Scripts and reference files](https://www.well.ox.ac.uk/~wrayner/strand/index.html)
+for converting GenomeStudio results between genome builds.
+
 ## Step 1: Compress and download genotyping data
 
 It is easier to download a single compressed file archive than a collection of
