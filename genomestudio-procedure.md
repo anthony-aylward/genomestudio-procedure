@@ -132,8 +132,8 @@ To upload the results to a server we'll first compress them using 7zip.
 ---
 
 Once the `.7z` archive has been created, we can upload it by navigating to the
-destination directory in MobaXterm. We should also upload the sample statistics
-table.
+destination directory in MobaXterm and using the upload button. We should also
+upload the sample statistics table.
 
 ---
 
