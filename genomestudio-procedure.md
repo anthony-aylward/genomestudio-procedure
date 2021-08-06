@@ -121,7 +121,7 @@ To upload the results to a server we'll first compress them using 7zip.
 
 ---
 
-![7zip compression image](screenshots/7zip-compression.png)
+![7zip compression image](screenshots/7zip-compress.png)
 
 ---
 
